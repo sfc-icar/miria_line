@@ -86,5 +86,5 @@ function selmisen($message_text,$hyakumi_menu){
 //みりあ.rand()
 function randmiria($message_text){
     $num = mb_substr(rtrim($message_text, ')'),9);
-    return "hoge=".rand(0, $num);
+    return "じゃあ……".rand(0, $num)."！！";
 }
